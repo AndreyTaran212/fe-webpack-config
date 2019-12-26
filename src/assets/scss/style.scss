@@ -1,0 +1,9 @@
+%font {
+  font-size: 20px;
+  color: green;
+}
+
+.greeting {
+  @extend %font;
+  font-family: serif;
+}
